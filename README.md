@@ -8,3 +8,16 @@ Currently, this package only supports Windows (via `SAPI`, using `win32com.clien
 Contributions to enable TTS support on macOS/OSX and Linux is welcome.
 
 
+
+## Prior art, alternative TTS libraries and engines
+
+
+Other Python TTS projects:
+
+* pyttsx3 - very extensive TTS package, implementing an eventLoop.
+
+* `tts` - has almost no info in PyPI, no website, no docs, only the zipped source code.
+	All it does is to invoke `say <text>` as an `os.system()` call.
+
+
+
